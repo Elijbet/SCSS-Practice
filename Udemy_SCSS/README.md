@@ -6,3 +6,5 @@
 * defining variables and using them: having variables clustered on top gives overview of the css and so is good for organization
 * partials are created to compartmentalize code; these need to be superceded with a _ so that it won't get converted to css; configure sublime on save build for this. Import the Variables into main.scss file
 * mixins allow to create reusable styles: can be applied generally, inside of styles, as well inside of other mixins
+* you can define mixins with arguments which are passed in when including the mixin; these can also hold default values upon definition
+* arbitrary variable arguments
